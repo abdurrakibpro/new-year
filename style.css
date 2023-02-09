@@ -6,9 +6,7 @@
 
 /* Header Styles */
 header{
-    border: 2px solid gray;
     background-image: url(images/banner/banner2.png);
-    background-repeat: round;
     width: 1600px;
     height: 809px;
 }
@@ -17,13 +15,12 @@ header{
     height: 228px;
     text-align: right;
     margin-left: 845px;
-    margin-top: 216px;
 }
 .header-title{
     font-weight: 700;
     font-size: 65px;
     color: #151414;
-    margin-bottom: 24px;
+    padding-top: 216px;
 }
 .header-description{
     font-weight: 400;
@@ -43,7 +40,7 @@ header{
 }
 
 
-
+/* Top Section Styles */
 .section-top{
     width: 1072px;
     height: 723.3px;
@@ -55,74 +52,71 @@ header{
     gap: 87px;
 }
 
-.section-content h3{
+.sec-head-title{
     color: #151414;
     font-weight: 700;
-    font-size: 40px; 
+    font-size: 40px;
     margin-top: 243px;
     margin-bottom: 24px;   
 }
-.section-content p{
+.sec-des-p{
     color: #444343;
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 16px;
 }
-.section-content ul li{
+.sec-points li{
     color: #444343;
     font-weight: 400;
     font-size: 16px;
     list-style: none;
 }
 
-
-
-
-
+/* My plan section styles */
+.myplan-section{
+    width: 1141px;
+}
 .myplan-title{
     color: #151414; 
     font-weight: 700;
     font-size: 40px;
     margin-left: 711px;
+    margin-top: 130px;
     margin-bottom: 50px;
 }
-.section-info1{
+.myplan-info{
     display: flex;
-    gap: 129px;
+    gap: 240px;
     margin-left: 230px;
+    margin-right: 230px;
 }
-.my-hobby{
-
+.myplan-skills{
     text-align: center;
 }
-.my-hobby img{
+.myplan-skills img{
     margin-bottom: 24px;
 }
-.my-hobby h3{
+.myplan-skills h3{
     margin-bottom: 16px;
 }
 
-
+/* Call Section Styles */
 .call-banner{
     background-image: 
     linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('images/watch.png');
     width: 1140px;
     height: 300px;
     margin-left: 230px;
-    margin-top: 140px;
+    margin-top: 124px;
     
 }
-.call-now h2{
+.call-sec-title{
     color: #FFFFFF;
     font-weight: 700;
     font-size: 40px;
     width: 459px;
     margin-left: 64px;
-    margin-top: 59px;
-}
-.call-now button{
-    margin-top: 24px;
-    margin-left: 64px;
+    padding-top: 59px;
 }
 .btn-primary1{
         background-color: #FFFFFF;
@@ -133,23 +127,25 @@ header{
         height: 64px;
         border: 0;
         border-radius: 10px;
+        margin-top: 24px;
+        margin-left: 64px;
     }
 
 
-
+/* Bottom Footer Section Styles */
 .section-bottom{
     background: #151414;
     display: flex;
     width: 1600px;
-height: 577px;
-gap: 330px;
-margin-top: 130px;
+    height: 577px;
+    gap: 330px;
+    margin-top: 130px;
 }
 .footer-info{
     color: #F8F8F8;
     margin-left: 230px;
 }
-.footer-info h1{
+.footer-title{
     color: #F8F8F8;
     margin-top: 130px;
     margin-bottom: 16px;
@@ -160,7 +156,6 @@ margin-top: 130px;
     font-size: 16px;
     margin-bottom: 16px;
     width: 485px; 
-   
 }
 .btm-img{
     display: flex;
@@ -182,4 +177,15 @@ margin-top: 130px;
     border: 1px solid white;
     padding: 10px;
     color: #F8F8F8;
+}
+.btn-subscribe{
+        background-color: #FFFFFF;
+        color: #F15B22;
+        font-weight: 600;
+        font-size: 20px;
+        width: 160px;
+        height: 64px;
+        border: 0;
+        border-radius: 10px;
+        margin-top: 24px;
 }
